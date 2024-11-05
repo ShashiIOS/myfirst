@@ -2,3 +2,8 @@ resource "azurerm_resource_group" "sj-rg" {
   name     = "s-rg"
   location = "West Europe"
 }
+
+resource "azurerm_resource_group" "rj-rg" {
+  name     = "r-rg"
+  location = "West Europe"
+}
