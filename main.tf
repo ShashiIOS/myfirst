@@ -7,3 +7,8 @@ resource "azurerm_resource_group" "rj-rg" {
   name     = "r-rg"
   location = "West Europe"
 }
+
+resource "azurerm_resource_group" "gs-rg" {
+  name     = "ghansyam-rg"
+  location = "central us"
+}
